@@ -1,0 +1,200 @@
+<<<<<<< HEAD
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.col-md-6 {
+    padding: 0;
+    min-height: 100px;
+    
+
+}
+.zgoda2{
+    position: absolute;
+    left:50%;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.map {
+
+    border-left: 1px #FFF solid;
+    width: 100vw;
+}
+
+.form {
+    height: 500px;
+    width: 100%;
+    background-image: url(../../img/3M1A9234.jpg);
+    background-position: right;
+    position: relative;
+    
+    .row{
+        margin-right: 0;
+    }
+
+
+
+}
+.text{
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+    h2{
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    p{
+        color: #fff;
+    }
+}
+#contact{
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 10px;
+}
+iframe {
+
+    width: 100%;
+    padding: 0;
+}
+
+.input-group-btn {}
+
+.input-group {
+    left: 50%;
+    margin-top: 25%;
+
+}
+
+.black-info {
+
+    position: absolute;
+    right: 0;
+    height: 50%;
+    bottom: 0;
+    background-color: #000;
+}
+
+.stopka{
+    position: relative;
+    margin-bottom: 5px;
+=======
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.col-md-6 {
+    padding: 0;
+    min-height: 100px;
+    
+
+}
+.zgoda2{
+    position: absolute;
+    left:50%;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.map {
+
+    border-left: 1px #FFF solid;
+    width: 100vw;
+}
+
+.form {
+    height: 500px;
+    width: 100%;
+    background-image: url(../../img/3M1A9234.jpg);
+    background-position: right;
+    position: relative;
+    
+    .row{
+        margin-right: 0;
+    }
+
+
+
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #000; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #fff;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+.text{
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+    h2{
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    p{
+        color: #fff;
+    }
+}
+#contact{
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 10px;
+}
+iframe {
+
+    width: 100%;
+    padding: 0;
+}
+
+.input-group-btn {}
+
+.input-group {
+    left: 50%;
+    margin-top: 25%;
+
+}
+
+.black-info {
+
+    position: absolute;
+    right: 0;
+    height: 50%;
+    bottom: 0;
+    background-color: #000;
+}
+
+.stopka{
+    position: relative;
+    margin-bottom: 5px;
+}
+.hov2:hover{
+    color: #5d5757;
+    transform: scale(1.1);
+    cursor: pointer;
+>>>>>>> 0cb36eac3082db7a06759a8bdcc4471f7c34ae3a
+}
