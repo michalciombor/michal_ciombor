@@ -2,6 +2,7 @@ $(document).ready(function(){
    addScrolled();
     napis();
     napis2();
+    napis3();
     
 });
 
@@ -9,6 +10,7 @@ $(document).scroll(function(){
     addScrolled();
     napis();
     napis2();
+    napis3();
     
 });
 
@@ -58,3 +60,4 @@ function napis2(){
          
     }
 }
+

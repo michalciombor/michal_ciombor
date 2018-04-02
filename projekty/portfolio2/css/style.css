@@ -21,7 +21,7 @@
 
 .napis {
 
-    font-family: 'Amatic SC', cursive;
+   font-family: 'Poiret One', cursive;
     position: absolute;
     top: 35vh;
     left: 10vw;
@@ -82,8 +82,8 @@
 
 .napis2 {
 
-    font-family: 'Amatic SC', cursive;
-    font-size: 50px;
+  font-family: 'Poiret One', cursive;
+    font-size: 40px;
     letter-spacing: 3px;
     text-shadow: 1px 0px 0px #000;
 }
@@ -96,7 +96,7 @@
 
 
 .podpis {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Poiret One', cursive;
     font-size: 30px;
     margin: 10px;
     padding: 10px;
@@ -108,6 +108,7 @@
 /*o mnie*/
 
 .about {
+    margin: 140px auto 120px auto;
   
 }
 
@@ -115,7 +116,7 @@ figure img {
 
     padding: 20px;
     width: 400px;
-    height: 400px;
+    height: 600px;
     object-fit: cover;
     border-radius: 5%;
 
@@ -125,11 +126,17 @@ figure img:hover{
     transform: rotate(20deg);
     background-color: rgba(68, 127, 235, 0.66);
 }
+#moje2 img:hover{
+    transform: none;
+    background-color: #FFF;
+    border-radius: 10%;
+}
 
 /*contact*/
 
 #contact {
     background-color: rgba(68, 127, 235, 0.06);
-    font-family: 'Amatic SC', cursive;
-    
+    font-family: 'Poiret One', cursive;
+    padding: 50px;
 }
+
