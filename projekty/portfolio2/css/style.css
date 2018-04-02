@@ -121,6 +121,11 @@ figure img {
 
 }
 
+figure img:hover{
+    transform: rotate(20deg);
+    background-color: rgba(68, 127, 235, 0.66);
+}
+
 /*contact*/
 
 #contact {
