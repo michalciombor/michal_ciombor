@@ -1,8 +1,8 @@
 <?PHP
 	$adresat = 'michal.ciombor@gmail.com'; 	// pod ten adres zostanie wysłana 	// 
-    $nazwa = $_GET['imie_i_nazwisko'];
-	$email = $_GET['email'];
-	$content = $_GET['wiadomosc'];
+    $nazwa = $_POST['imie_i_nazwisko'];
+	$email = $_POST['email'];
+	$content = $_POST['wiadomosc'];
 	$header = 	"From: '$email' \nContent-Type:".
 			' text/plain;charset="iso-8859-2"'.
 			"\nContent-Transfer-Encoding: 8bit";
